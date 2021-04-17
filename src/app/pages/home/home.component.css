@@ -1,0 +1,55 @@
+
+@media (min-height:576px) {
+  slide{
+    height: 800px;
+  }
+
+}
+.slide{
+  max-width: 1500px;
+ height: 350px;
+  position: relative;
+  align-self: center;
+ 
+}
+
+.btn{
+  margin-bottom: 20px;
+}
+
+
+.marketing .col-lg-4 {
+  margin-top: 20px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2{
+  font-weight: 400;
+}
+  /*
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  .img-fluid{
+      width: 100%;
+      height: auto;
+  }
+  
+  .carousel-item {
+    height: 35rem;
+  }
+  .slide{
+    min-width: 450px;
+     max-width: 100%;
+      height: auto;
+      overflow: hidden;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25rem;
+  }
+
+  */

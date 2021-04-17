@@ -1,0 +1,27 @@
+<div class="col-md-6 mx-auto mt-5">
+<div class="card">
+    <div class="card-body">
+        <h3 class="text-center">LOGIN</h3>
+        <form [formGroup]="loginForm" (ngSubmit)="onLogin()">
+
+            <div class="form-group">
+                <label for="geoemail">E-mail</label>
+                <input type="geoemail" class="form-control" formControlName ="geoemail" />
+            </div>
+            <div class="form-group">
+                <label for="password">Contraseña</label>
+                <input type="password" class="form-control" formControlName ="password"/>
+            </div>
+            <button type="submit" class="btn btn-primary">Login
+
+            </button>
+            <br>
+            <label class="read-only">Si aún no es cliente, 
+                <a [routerLink] = "['/register']"> Regístrese ahora</a>
+            </label>
+
+        </form>
+    </div>
+
+</div>
+</div>

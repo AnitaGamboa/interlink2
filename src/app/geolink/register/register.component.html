@@ -1,0 +1,58 @@
+<div class="col-md-6 mx-auto mt-5">
+
+    <h2 class="text-center mt-15">Registrarse le permite entrar al mundo Geolink</h2>
+    <br>
+    <p class="descripcion">Este proceso solo será necesario una vez, luego podrá ingresar con su usuario y contraseña.
+        <br>
+    </p>
+
+    <div class="card">
+        <div class="card-body">
+            <h4>Datos personales</h4>
+            <form [formGroup]="registerForm" (ngSubmit)="OnRegister()">
+                <!-- <div class="form-group">
+                <label for="geonombre">Nombre</label>
+                <input type="geonombre" class="form-control" 
+                formControlName= "geonombre" />
+            </div>
+            <div class="form-group">
+                <label for="direccion">Dirección</label>
+                <input type="direccion" class="form-control"
+                formControlName= "direccion" />
+            </div>
+            <div class="form-group">
+                <label for="telefono">Teléfono</label>
+                <input type="telefono" class="form-control"
+                formControlName= "telefono" />
+            </div>
+            <div class="form-group">
+                <label for="pais">País/Ciudad</label>
+                <input type="pais" class="form-control" 
+                formControlName= "pais"/>
+            </div>-->
+                <div class="form-group">
+                    <label for="geoemail">E-mail</label>
+                    <input type="geoemail" class="form-control" formControlName="geoemail" />
+                   <!-- 
+                    <div class="alert alert-danger" >
+                        <div class="container message" >
+                            Ingrese un e-mail válido
+                        </div>
+                    </div> -->
+                </div>
+                <div class="form-group">
+                    <label for="password">Contraseña</label>
+                    <input type="password" class="form-control" formControlName="password" />
+                </div>
+                <button type="submit" class="btn btn-primary">Registro
+
+                </button>
+                <br>
+                <label class="read-only">
+                    Use <a [routerLink]="['/login']"> Login</a> si ya tiene una cuenta.
+
+                </label>
+            </form>
+        </div>
+    </div>
+</div>

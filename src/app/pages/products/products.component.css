@@ -1,0 +1,11 @@
+.myproducts{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.jumbotron{
+    background-color: rgb(1, 15, 82);
+}
+.resaltado{
+    text-decoration: solid;
+    font-size: large;
+}

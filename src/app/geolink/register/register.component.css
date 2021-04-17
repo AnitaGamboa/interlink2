@@ -1,0 +1,11 @@
+@media (min-width: 200px) and (max-width:500px){}
+.container-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.card{
+    margin-bottom: 30px;
+}
+

@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "interlink0304": {
+      "hosting": {
+        "interlink2": [
+          "interlink0304"
+        ]
+      }
+    }
+  }
+}
